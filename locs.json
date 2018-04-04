@@ -1,0 +1,30 @@
+{
+  "EBBR":{
+    "icao": "EBBR",
+    "name" : "Brussels International",
+    "charts":{
+
+      "AD" :{
+      "name" : "Aerodrome Chart",
+      "type" : "Aerodrome",
+      "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_ADC01_v37.pdf"
+      },
+
+      "GMC" :{
+        "name" : "Aerodrome Ground Movement Chart",
+        "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_GMC01_v36.pdf"
+      },
+
+     "APDC" :{
+       "name" : "Aerodrome Docking Chart",
+       "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_APDC01_v50.pdf"
+      }
+
+    }
+  },
+  "ELLX":{
+
+  }
+}
