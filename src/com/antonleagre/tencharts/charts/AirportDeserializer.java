@@ -1,4 +1,4 @@
-package sample;
+package com.antonleagre.tencharts.charts;
 
 import com.google.gson.*;
 
@@ -21,13 +21,13 @@ public class AirportDeserializer implements JsonDeserializer<Airport> {
         ArrayList<Chart> desCharts = new ArrayList<>();    //charts in code
 
         serCharts.forEach(serChart -> {
-
+            String chartIdentifier = serChart.getKey();
             JsonObject chartFields = serChart.getValue().getAsJsonObject();
             String chartName = chartFields.get("name").getAsString();
             String chartLoc = chartFields.get("loc").getAsString();
             Chart.Types chartType = Chart.Types.valueOf(chartFields.get("type").getAsString().toUpperCase());
 
-            desCharts.add(new Chart(chartType, chartName, chartLoc));
+            desCharts.add(new Chart(chartType, chartName, chartIdentifier, chartLoc));
         });
 
         Airport airport = new Airport(desICAOCode, desName, desCharts);

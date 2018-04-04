@@ -1,4 +1,4 @@
-package sample;
+package com.antonleagre.tencharts.charts;
 
 import java.util.ArrayList;
 
@@ -31,4 +31,5 @@ public class Airport {
     public ArrayList<Chart> getCharts() {
         return charts;
     }
+
 }

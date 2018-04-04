@@ -1,5 +1,6 @@
-package sample;
+package com.antonleagre.tencharts.ui;
 
+import com.antonleagre.tencharts.charts.Chart;
 import javafx.embed.swing.SwingNode;
 import org.icepdf.ri.common.MyAnnotationCallback;
 import org.icepdf.ri.common.SwingController;
