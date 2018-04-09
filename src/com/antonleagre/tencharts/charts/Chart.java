@@ -26,6 +26,12 @@ public class Chart {
 
     }
 
+    //overriding toString method bc the treeview ui element uses it to determine which name to pick
+    @Override
+    public String toString() {
+        return getName();
+    }
+
     public Types getChartType() {
         return chartType;
     }
@@ -44,5 +50,9 @@ public class Chart {
 
     public String getIdentifier() {
         return identifier;
+    }
+
+    public void setLocalLocation(String local) {
+        this.local = local;
     }
 }

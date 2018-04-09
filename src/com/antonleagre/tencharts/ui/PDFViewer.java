@@ -53,6 +53,6 @@ public class PDFViewer extends SwingNode {
     }
 
     public void openChart(Chart chart){
-        swingController.openDocument(chart.getLocation());
+        swingController.openDocument(chart.getLocalLocation());
     }
 }

@@ -16,15 +16,158 @@
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_GMC01_v36.pdf"
       },
 
+      "GMCa380" :{
+        "name" : "Aerodrome Ground Movement Chart: A380 Ground Movements",
+        "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_GMC06_v01.pdf"
+      },
+
      "APDC" :{
        "name" : "Aerodrome Docking Chart",
        "type" : "Aerodrome",
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_APDC01_v50.pdf"
-      }
+      },
+      "APDCA9" :{
+        "name" : "Aerodrome Docking Chart Apron 9",
+        "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_APDC02_v12.pdf"
+      },
+      "APDCGA" :{
+        "name" : "Aerodrome Docking Chart General Aviation",
+        "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_APDC03_v07.pdf"
+      },
+      "SID01" :{
+        "name" : "SID Runway 01",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID01_v16.pdf"
+      },
+      "SID07L1" :{
+        "name" : "SID Runway 07L (Hotel Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID02_v18.pdf"
+      },
+      "SID07L2" :{
+        "name" : "SID Runway 07L (Whiskey Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID02a_v02.pdf"
+      },
+      "SID07R1" :{
+        "name" : "SID Runway 07R (Hotel Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID03_v17.pdf"
+      },
+      "SID07R2" :{
+        "name" : "SID Runway 07R (Whiskey Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID03a_v02.pdf"
+      },
+      "SID19N" :{
+        "name" : "SID Runway 19",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID04a_v04.pdf"
+      },
+      "SID19R" :{
+        "name" : "SID Runway 19 + RNAV overlay",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID04b_v04.pdf"
+      },
+      "SID25L1" :{
+        "name" : "SID Runway 25L (Charlie Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID05a_v05.pdf"
+      },
+      "SID25L2" :{
+        "name" : "SID Runway 25L (Delta/Quebec Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID05a_v05.pdf"
+      },
+      "SID25R1" :{
+        "name" : "SID Runway 25R (Charlie Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID06a_v03.pdf"
+      },
+      "SID25R2" :{
+        "name" : "SID Runway 25R (Delta/Zulu Departures)",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_SID06b_v05.pdf"
+      },
+      "STAR" :{
+        "name" : "STAR",
+        "type" : "Arrival",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_STAR01_v16.pdf"
+      },
+      "STARR" :{
+        "name" : "STAR + RNAV overlay",
+        "type" : "Arrival",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_STAR02_v08.pdf"
+      },
+      "ILS25R1" :{
+        "name" : "ILS or LOCa Runway 25R (IAF ANT/KERKY)",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC01_v22.pdf"
+      },
+      "ILS25R2" :{
+        "name" : "ILS or LOCb Runway 25R (IAF FLO)",
+        "type" : "Approach ",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC02_v21.pdf"
+      },
+      "ILS25L1" :{
+        "name" : "ILS or LOCa Runway 25L (IAF ANT/KERKY)",
+        "type" : "Approach ",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC03_v19.pdf"
+      },
+      "ILS25L2" :{
+        "name" : "ILS or LOCb Runway 25L (IAF FLO)",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC04_v22.pdf"
+      },
+      "VOR25L1" :{
+        "name" : "VORz Runway 25L (IAF ANT/KERKY)",
+        "type" : "Approach ",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC05_v19.pdf"
+      },
+      "VOR25L2" :{
+        "name" : "VORy Runway 25L (IAF FLO)",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC06_v16.pdf"
+      },
+      "ILS011" :{
+        "name" : "ILS or LOC Runway 01",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC07a_v07.pdf"
+      },
+      "ILS012" :{
+        "name" : "ILS or LOC Runway 01 (Alternate Routes- ATC Discretion)",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC07b_v08.pdf"
+      },
 
     }
   },
   "ELLX":{
 
+    "icao": "ELLX",
+    "name": "Luxembourg Findel international Airport",
+    "charts":{
+
+      "AD" :{
+        "name" : "Aerodrome Chart",
+        "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_ADC01_v37.pdf"
+      },
+
+      "GMC" :{
+        "name" : "Aerodrome Ground Movement Chart",
+        "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_GMC01_v36.pdf"
+      },
+
+      "APDC" :{
+        "name" : "Aerodrome Docking Chart",
+        "type" : "Aerodrome",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_APDC01_v50.pdf"
+      }
+    }
   }
 }

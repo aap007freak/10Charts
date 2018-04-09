@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.antonleagre.tencharts.ui.AirFieldDialogController">
+   <children>
+      <Label layoutX="81.0" layoutY="44.0" text="Choose the json file in which you want to create or alter an airport:" />
+   </children>
+</AnchorPane>
