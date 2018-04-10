@@ -94,12 +94,12 @@ public class Controller implements Initializable {
             Parent root = loader.load();
             // Get the Controller from the FXMLLoader
             DownloadPromptController controller = loader.getController();
-            // Set data in the controller
-            controller.setData(woohoo);
             Scene scene = new Scene(root, 400, 200);
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.show();
+            // Set data in the controller
+            controller.setData(woohoo);
         }
         catch (IOException e) {
             e.printStackTrace();
