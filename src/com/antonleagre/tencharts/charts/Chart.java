@@ -7,6 +7,7 @@ public class Chart {
         AERODROME,
         DEPARTURE,
         ARRIVAL,
+        TRANSITION,
         APPROACH
     }
 
