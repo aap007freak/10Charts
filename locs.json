@@ -1,7 +1,7 @@
 {
   "EBBR":{
     "icao": "EBBR",
-    "name" : "Brussels International",
+    "name" : "Brussels International Airport",
     "charts":{
 
       "AD" :{
@@ -142,6 +142,42 @@
         "type" : "Approach",
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC07b_v08.pdf"
       },
+      "VOR07R" :{
+        "name" : "VOR Runway 07R",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC08_v16.pdf"
+      },
+       "ILS19" :{
+        "name" : "ILS or LOC Runway 19",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC09_v19.pdf"
+      },
+       "VOR07L" :{
+        "name" : "VOR Runway 07L",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC10_v13.pdf"
+      },
+       "RNAV01" :{
+        "name" : "RNAV Runway 01",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC11_v04.pdf"
+      },
+       "RNAV25L" :{
+        "name" : "RNAV Runway 25L",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC12_v03.pdf"
+      },
+       "RNAV25R" :{
+        "name" : "RNAV Runway 25R",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_IAC13_v03.pdf"
+      },
+      "VIS" :{
+        "name" : "Visual",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_VAC01_v15.pdf"
+      },
+      
 
     }
   },
@@ -154,20 +190,66 @@
       "AD" :{
         "name" : "Aerodrome Chart",
         "type" : "Aerodrome",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_ADC01_v37.pdf"
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_ADC01_v18.pdf"
       },
 
       "GMC" :{
         "name" : "Aerodrome Ground Movement Chart",
         "type" : "Aerodrome",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_GMC01_v36.pdf"
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_GMC01_v17.pdf"
       },
 
       "APDC" :{
         "name" : "Aerodrome Docking Chart",
         "type" : "Aerodrome",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_APDC01_v50.pdf"
-      }
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_APDC01_v18.pdf"
+      },
+      "STAR1" :{
+        "name" : "STAR (Holding DIK)",
+        "type" : "Arrival",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_STAR01_v17.pdf"
+      },
+      "STAR2" :{
+        "name" : "STAR (Holding WLU)",
+        "type" : "Arrival",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_STAR02_v17.pdf"
+      },
+      "SID06" :{
+        "name" : "SID Runway 06",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_SID01_v18.pdf"
+      },
+      "SID24" :{
+        "name" : "SID Runway 24",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_SID02_v19.pdf"
+      },
+      "ILS06" :{
+        "name" : "ILS or LOC Runway 06",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC01_v14.pdf"
+      },
+      "ILS24" :{
+        "name" : "ILS or LOC Runway 24",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC02_v14.pdf"
+      },
+      "NDB24" :{
+        "name" : "NDB Runway 24",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC04_v14.pdf"
+      },
+      "NDB06" :{
+        "name" : "NDB Runway 06",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC03_v14.pdf"
+      },
+      "VIS" :{
+        "name" : "Visual",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_VAC01_v12.pdf"
+      },
+      
     }
   }
 }
