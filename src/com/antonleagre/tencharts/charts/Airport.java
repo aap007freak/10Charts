@@ -6,7 +6,8 @@ public class Airport {
 
     public enum ICAOCode {
         EBBR,
-        ELLX
+        ELLX,
+        EDDM
     }
 
     private ICAOCode code;

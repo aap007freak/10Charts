@@ -29,9 +29,9 @@ public class AirportDeserializer implements JsonDeserializer<ArrayList<Airport>>
                 JsonObject chartFields = serChart.getValue().getAsJsonObject();
                 String chartName = chartFields.get("name").getAsString();
                 String chartLoc = chartFields.get("loc").getAsString();
-                Chart.Types chartType = Chart.Types.valueOf(chartFields.get("type").getAsString().toUpperCase());
-
-                desCharts.add(new Chart(chartType, chartName, chartIdentifier, chartLoc));
+                //Chart.Types chartType = Chart.Types.valueOf(chartFields.get("type").getAsString().toUpperCase());
+                // TODO: 4/10/2018 figure out why this isn't working
+                desCharts.add(new Chart(null, chartName, chartIdentifier, chartLoc));
             });
 
             Airport airport = new Airport(desICAOCode, desName, desCharts);

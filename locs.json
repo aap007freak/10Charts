@@ -176,9 +176,7 @@
         "name" : "Visual",
         "type" : "Approach",
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/EBBR_VAC01_v15.pdf"
-      },
-      
-
+      }
     }
   },
   "ELLX":{
@@ -247,10 +245,9 @@
         "name" : "Visual",
         "type" : "Approach",
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_VAC01_v12.pdf"
-      },
-      
+      }
     }
-  }
+  },
   "EDDM":{
 
     "icao": "EDDM",
@@ -325,11 +322,7 @@
         "name" : "ILS Runway 26R",
         "type" : "Approach",
         "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-04_ILS_26R.pdf"
-      },  
-      
-
-
-      
+      }
     }
   }
 }

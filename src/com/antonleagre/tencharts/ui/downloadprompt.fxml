@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.antonleagre.tencharts.ui.DownloadPromptController">
+   <children>
+      <JFXProgressBar layoutX="100.0" layoutY="127.0" />
+      <Label layoutX="155.0" layoutY="54.0" text="Now  Processing:" />
+   </children>
+</AnchorPane>

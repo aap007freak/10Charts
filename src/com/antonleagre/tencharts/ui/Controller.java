@@ -12,13 +12,19 @@ import com.jfoenix.controls.JFXTabPane;
 import com.jfoenix.controls.JFXTreeView;
 import javafx.event.EventType;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.DirectoryChooser;
+import javafx.stage.Stage;
 import sun.reflect.generics.tree.Tree;
 
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -60,6 +66,8 @@ public class Controller implements Initializable {
             rootItem.getChildren().add(airportRootItem);
         }
         treeView.setRoot(rootItem);
+
+
         treeView.getSelectionModel().selectedItemProperty().addListener((obv, old, neww) ->{
 
             if(neww.isLeaf()){ //checking if the item you've clicked on is a chart and not a placeholder
@@ -70,6 +78,7 @@ public class Controller implements Initializable {
                 chartTab.setClosable(true);
                 tabPane.getTabs().add(chartTab);
                 viewer.openChart(neww.getValue());
+                tabPane.getSelectionModel().select(chartTab);
             }
         });
         System.out.println("DONE!");
@@ -78,9 +87,25 @@ public class Controller implements Initializable {
 
     @FXML
     private void downloadClicked(){
-        DirectoryChooser directoryChooser = new DirectoryChooser();
-        File outputDir = directoryChooser.showDialog(tabPane.getScene().getWindow()); //convoluted way cause javafx is dumb sometimes
-        woohoo.forEach(ap -> PDFDownloader.downloadAirportCharts(ap, outputDir));
+        //open a new window, the controller of that window will do the downloading
+        try {
+
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("downloadprompt.fxml"));
+            Parent root = loader.load();
+            // Get the Controller from the FXMLLoader
+            DownloadPromptController controller = loader.getController();
+            // Set data in the controller
+            controller.setData(woohoo);
+            Scene scene = new Scene(root, 400, 200);
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            stage.show();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
     @FXML
@@ -100,5 +125,4 @@ public class Controller implements Initializable {
         //2. check if the local charts are the same as the new charts, and if they are set the local location. If they arent -> Download them
 
     }
-
 }

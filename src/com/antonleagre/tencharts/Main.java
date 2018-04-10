@@ -11,7 +11,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-//        pdfPath = args[0];
         launch(args);
     }
 
@@ -21,7 +20,7 @@ public class Main extends Application {
         primaryStage.setOnCloseRequest((we) -> Platform.exit());
 
 
-        primaryStage.setTitle("JavaFX PDF Viewer Demo");
+        primaryStage.setTitle("10Charts ALPHA");
         primaryStage.setScene(new Scene(root, 1025,600));
         primaryStage.sizeToScene();
         primaryStage.centerOnScreen();
