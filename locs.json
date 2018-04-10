@@ -198,7 +198,6 @@
         "type" : "Aerodrome",
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_GMC01_v17.pdf"
       },
-
       "APDC" :{
         "name" : "Aerodrome Docking Chart",
         "type" : "Aerodrome",
@@ -249,6 +248,87 @@
         "type" : "Approach",
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_VAC01_v12.pdf"
       },
+      
+    }
+  }
+  "EDDM":{
+
+    "icao": "EDDM",
+    "name": "Flughafen München Franz Josef Strauß",
+    "charts":{
+      "GMC" :{
+        "name" : "Aerodrome Ground Movement Chart",
+        "type" : "Aerodrome",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/ground/EDDM_GND-01_TAXI_2004.pdf"
+      },
+      "APDC1" :{
+        "name" : "Aerodrome Docking Chart",
+        "type" : "Aerodrome",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/ground/EDDM_GND-02_PARKING_-_FS2004.pdf"
+      },
+      "APDC2" :{
+        "name" : "Aerodrome Docking Chart (Mega Airport)",
+        "type" : "Aerodrome",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/ground/EDDM_GND-03_PARKING_-_FS2004_Mega.pdf"
+      },
+      "STAR1" :{
+        "name" : "STAR from North/West",
+        "type" : "Arrival",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/star/EDDM_STAR-01_NW.pdf"
+      },
+      "STAR2" :{
+        "name" : "STAR from North/East",
+        "type" : "Arrival",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/star/EDDM_STAR-02_NE.pdf"
+      },
+      "STAR3" :{
+        "name" : "STAR from South",
+        "type" : "Arrival",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/star/EDDM_STAR-03_SOUTH.pdf"
+      },
+      "TRANS26" :{
+        "name" : "Transition Runways 26 (BETOS, NAPSA, ROKIL, LANDU)",
+        "type" : "Transition",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/transition/EDDM_TRAN-02_RWYS_26.pdf"
+      },
+      "TRANS08" :{
+        "name" : "Transition Runways 08 (BETOS, NAPSA, ROKIL, LANDU)",
+        "type" : "Transition",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/transition/EDDM_TRAN-01_RWYS_08.pdf"
+      },
+      "TRANSCDO08L" :{
+        "name" : "Transition CDO Runway 08L",
+        "type" : "Transition",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/transition/EDDM_TRAN-03_CDO_08L.pdf"
+      },
+      "TRANSCDO26R" :{
+        "name" : "Transition CDO Runway 26R",
+        "type" : "Transition",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/transition/EDDM_TRAN-04_CDO_26R.pdf"
+      },
+      "ILS08L" :{
+        "name" : "ILS Runway 08L",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-01_ILS_08L.pdf"
+      },
+      "ILS08R" :{
+        "name" : "ILS Runway 08R",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-02_ILS_08R.pdf"
+      },
+      "ILS26L" :{
+        "name" : "ILS Runway 26L",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-03_ILS_26L.pdf"
+      },
+      "ILS26R" :{
+        "name" : "ILS Runway 26R",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-04_ILS_26R.pdf"
+      },  
+      
+
+
       
     }
   }
