@@ -322,7 +322,107 @@
         "name" : "ILS Runway 26R",
         "type" : "Approach",
         "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-04_ILS_26R.pdf"
-      }
+      },
+      "NDB08L" :{
+        "name" : "NDB Runway 08L",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-05_NDB_08L.pdf"
+      },
+       "NDB08R" :{
+        "name" : "NDB Runway 08R",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-06_NDB_08R.pdf"
+      },
+       "NDB26L" :{
+        "name" : "NDB Runway 26L",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-07_NDB_26L.pdf"
+      },
+       "NDB26R" :{
+        "name" : "NDB Runway 26R",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-08_NDB_26R.pdf"
+      },
+       "SID1" :{
+        "name" : "SID ALGOI (26L/R: Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-01_ALG.pdf"
+      },
+       "SID2" :{
+        "name" : "SID ANKER",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-02_ANKER.pdf"
+      },
+       "SID3" :{
+        "name" : "SID BIBAG",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-03_BIBAG.pdf"
+      },
+       "SID4" :{
+        "name" : "SID EVIVA",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-04_EVIVA.pdf"
+      },
+       "SID5" :{
+        "name" : "SID GIMVI",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-05_GIVMI.pdf"
+      },
+       "SID6" :{
+        "name" : "SID INPUD",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-06_INPUD.pdf"
+      },
+       "SID7" :{
+        "name" : "SID KIRDI",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-08_KIRDI.pdf"
+      },
+       "SID8" :{
+        "name" : "SID OLASO",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-12_OLASO.pdf"
+      },
+       "SID9" :{
+        "name" : "SID RIDAR",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-13_RIDAR.pdf"
+      },
+       "SID10" :{
+        "name" : "SID ROTAX",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-14_ROTAX.pdf"
+      },
+      "SID11" :{
+        "name" : "SID MERSI (8L/R: Prop. only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-09_MERSI.pdf"
+      },
+      "SID12" :{
+        "name" : "SID OBAXA (Prop. only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-11_OBAXA.pdf"
+      },
+      "SID13" :{
+        "name" : "SID MIX (Non-RNAV only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-10_MIQ.pdf"
+      },
+      "SID14" :{
+        "name" : "SID TULSI (Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-15_TULSI.pdf"
+      },
+      "SID15" :{
+        "name" : "SID TURBU (Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-16_TURBU.pdf"
+      },
+      "SID16" :{
+        "name" : "SID VAVOR (Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-17_VAVOR.pdf"
+      },
     }
   }
 }
