@@ -322,6 +322,254 @@
         "name" : "ILS Runway 26R",
         "type" : "Approach",
         "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-04_ILS_26R.pdf"
+      },
+      "NDB08L" :{
+        "name" : "NDB Runway 08L",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-05_NDB_08L.pdf"
+      },
+       "NDB08R" :{
+        "name" : "NDB Runway 08R",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-06_NDB_08R.pdf"
+      },
+       "NDB26L" :{
+        "name" : "NDB Runway 26L",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-07_NDB_26L.pdf"
+      },
+       "NDB26R" :{
+        "name" : "NDB Runway 26R",
+        "type" : "Approach",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/apch/EDDM_APCH-08_NDB_26R.pdf"
+      },
+       "SID1" :{
+        "name" : "SID ALGOI (26L/R: Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-01_ALG.pdf"
+      },
+       "SID2" :{
+        "name" : "SID ANKER",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-02_ANKER.pdf"
+      },
+       "SID3" :{
+        "name" : "SID BIBAG",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-03_BIBAG.pdf"
+      },
+       "SID4" :{
+        "name" : "SID EVIVA",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-04_EVIVA.pdf"
+      },
+       "SID5" :{
+        "name" : "SID GIMVI",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-05_GIVMI.pdf"
+      },
+       "SID6" :{
+        "name" : "SID INPUD",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-06_INPUD.pdf"
+      },
+       "SID7" :{
+        "name" : "SID KIRDI",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-08_KIRDI.pdf"
+      },
+       "SID8" :{
+        "name" : "SID OLASO",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-12_OLASO.pdf"
+      },
+       "SID9" :{
+        "name" : "SID RIDAR",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-13_RIDAR.pdf"
+      },
+       "SID10" :{
+        "name" : "SID ROTAX",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-14_ROTAX.pdf"
+      },
+      "SID11" :{
+        "name" : "SID MERSI (8L/R: Prop. only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-09_MERSI.pdf"
+      },
+      "SID12" :{
+        "name" : "SID OBAXA (Prop. only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-11_OBAXA.pdf"
+      },
+      "SID13" :{
+        "name" : "SID MIX (Non-RNAV only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-10_MIQ.pdf"
+      },
+      "SID14" :{
+        "name" : "SID TULSI (Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-15_TULSI.pdf"
+      },
+      "SID15" :{
+        "name" : "SID TURBU (Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-16_TURBU.pdf"
+      },
+      "SID16" :{
+        "name" : "SID VAVOR (Jet only)",
+        "type" : "Departure",
+        "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-17_VAVOR.pdf"
+      },
+    }
+  },
+   "LOWW":{
+
+    "icao": "LOWW",
+    "name": "Flughafen Wien-Schwechat",
+    "charts":{
+
+      "AD" :{
+        "name" : "Aerodrome Chart",
+        "type" : "Aerodrome",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Ground_Aerodrome%20Overview_26052016.pdf"
+      },
+      "APDC" :{
+        "name" : "Aerodrome Docking Chart",
+        "type" : "Aerodrome",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Ground_Docking%20Positions_04012018.pdf"
+      },
+      "STAR1" :{
+        "name" : "STAR (Holding DIK)",
+        "type" : "Arrival",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_STAR01_v17.pdf"
+      },
+      "SID11" :{
+        "name" : "SID Runway 11",
+        "type" : "Departure",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Departure_SID%20RWY%2011_29032018.pdf"
+      },
+      "SID11NAP" :{
+        "name" : "SID Runway 11 (NAP)",
+        "type" : "Departure",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Departure_SID%20RWY%2011%20(NAP)_29032018.pdf"
+      },
+      "SID16" :{
+        "name" : "SID Runway 16",
+        "type" : "Departure",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Departure_SID%20RWY%2016_29032018.pdf"
+      },
+      "SID29" :{
+        "name" : "SID Runway 29",
+        "type" : "Departure",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Departure_SID%20RWY%2029_29032018.pdf"
+      },
+      "SID29" :{
+        "name" : "SID Runway 29 (NAP)",
+        "type" : "Departure",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Departure_SID%20RWY%2029%20(NAP)_29032018.pdf"
+      },
+      "SID34" :{
+        "name" : "SID Runway 34",
+        "type" : "Departure",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Departure_SID%20RWY%2034_29032018.pdf"
+      },
+      "SID34NAP" :{
+        "name" : "SID Runway 34 (NAP)",
+        "type" : "Departure",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Departure_SID%20RWY%2034%20(NAP)_29032018.pdf"
+      },
+      "ILS11" :{
+        "name" : "ILS or LOC Runway 11",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_ILS%20or%20LOC%2011_15092016.pdf"
+      },
+      "ILS16" :{
+        "name" : "ILS or LOC Runway 16",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_ILS%20CAT%20II-III%20or%20LOC%20%2016_08122016.pdf"
+      },
+      "ILS29" :{
+        "name" : "ILS or LOC Runway 29",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_ILS%20CAT%20II-III%20or%20LOC%20%2029_08122016.pdf"
+      },
+      "ILS34" :{
+        "name" : "ILS or LOC Runway 34",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_ILS%20CAT%20or%20LOC%2034_08122016.pdf"
+      },
+      "NDB11" :{
+        "name" : "NDB Runway 11",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_NDB%2011_26052016.pdf"
+      },
+      "NDB29" :{
+        "name" : "NDB Runway 29",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_NDB%20Instrument%20Approach%20RWY29_22052017.pdf"
+      },
+      "VOR16" :{
+        "name" : "VOR Runway 16",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_VOR%2016_26052016.pdf"
+      },
+      "VOR34" :{
+        "name" : "VOR Runway 34",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_VOR%2034_26052016.pdf"
+      },
+       "RNAV11" :{
+        "name" : "RNAV Runway 11 Z",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_RNAV%20GNSS%2011%20Z_02022017.pdf"
+      },
+      "RNAV16" :{
+        "name" : "RNAV Runway 16 Z",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_RNAV%20GNSS%2016%20Z_02022017.pdf"
+      },
+      "RNAV29" :{
+        "name" : "RNAV Runway 29 X",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_RNAV%20GNSS%2029%20X_26052016.pdf"
+      },
+      "RNAV292" :{
+        "name" : "RNAV Runway 29 X",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_RNAV%20GNSS%2029%20Z_26052016.pdf"
+      },
+      "RNAV34" :{
+        "name" : "RNAV Runway 34",
+        "type" : "Approach",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Approach_RNAV%20GNSS%2034_02022017.pdf"
+      },
+      "TRANS11" :{
+        "name" : "Transition Runway 11",
+        "type" : "Transition",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Arrival_RNAV%20Transition%2011_29032018.pdf"
+      },
+      "TRANS16" :{
+        "name" : "Transition Runway 16",
+        "type" : "Transition",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Arrival_RNAV%20Transition%2016_26052016.pdf"
+      },
+      "TRANS29" :{
+        "name" : "Transition Runway 29",
+        "type" : "Transition",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Arrival_RNAV%20Transition%2029_26052016.pdf"
+      },
+       "TRANS292" :{
+        "name" : "Transition Runway 29 (NAP)",
+        "type" : "Transition",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Arrival_RNAV%20Transition%20(NAP)%2029_26052016.pdf"
+      },
+       "TRANS34" :{
+        "name" : "Transition Runway 34",
+        "type" : "Transition",
+        "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Arrival_RNAV%20Transition%2034_26052016.pdf"
       }
     }
   }
