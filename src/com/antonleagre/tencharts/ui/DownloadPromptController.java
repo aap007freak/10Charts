@@ -43,7 +43,6 @@ public class DownloadPromptController implements Initializable{
                     updateMessage(airports.get(i).getName()); //Set the current task message to the airport its downloading the charts for
                     PDFDownloader.downloadAirportCharts(airports.get(i), outputDir);
                     updateProgress(i + 1, airports.size());
-
                 }
                 return null;
             }

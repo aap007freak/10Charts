@@ -108,12 +108,12 @@ public class Controller implements Initializable {
 
     }
 
-    @FXML
+    @FXML 
     private void updateClicked(){
         DirectoryChooser directoryChooser = new DirectoryChooser();
         File outputDir = directoryChooser.showDialog(tabPane.getScene().getWindow()); //convoluted way cause javafx is dumb sometimes
         woohoo.forEach(airport -> PDFDownloader.setAirportChartsFromDir(airport, outputDir + "\\" + airport.getCode()));
-    }
+    } // TODO: 4/11/2018 check this at the when you start the program 
 
     @FXML
     private void checkButtonClicked(){
@@ -121,8 +121,9 @@ public class Controller implements Initializable {
     }
 
     private void update(){
-        //1. check if theres a new json file on the web. and download if needed. then look for new /updated airports and download their charts
-        //2. check if the local charts are the same as the new charts, and if they are set the local location. If they arent -> Download them
+        //1. dwonlaod a new locs.json file from the web if there is one
+        //2. periodically ask if you want to update the new charts to the new json file.
+        //2. check the previous download location for charts and update the charts.
 
     }
 }

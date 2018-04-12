@@ -28,6 +28,7 @@ public class PDFViewer extends SwingNode {
 
                 // hide the status bar
                 properties.setBoolean(PropertiesManager.PROPERTY_VIEWPREF_HIDETOOLBAR, true);
+                properties.setBoolean(PropertiesManager.PROPERTY_SHOW_TOOLBAR_ROTATE, true);
                 properties.setBoolean(PropertiesManager.PROPERTY_VIEWPREF_HIDEMENUBAR, true);
                 properties.setBoolean(PropertiesManager.PROPERTY_HIDE_UTILITYPANE, true);
 
