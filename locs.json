@@ -572,5 +572,173 @@
         "loc"  : "https://charts.vacc-austria.org/LOWW/LOWW_Arrival_RNAV%20Transition%2034_26052016.pdf"
       }
     }
-  }
+  },
+   "KATL":{
+
+    "icao": "ELLX",
+    "name": "Hartsfield - Jackson Atlanta international airport",
+    "charts":{
+
+      "AD" :{
+        "name" : "Aerodrome Chart",
+        "type" : "Aerodrome",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026AD.PDF"
+      },
+      "STAR1" :{
+        "name" : "STAR CHPPR ONE (RNAV)",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026CHPPR.PDF"
+      },
+      "STAR1-2" :{
+        "name" : "STAR CHPPR ONE (RNAV) Cont.",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026CHPPR_C.PDF"
+      },
+      "STAR1-3" :{
+        "name" : "STAR CHPPR ONE (RNAV) Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026CHPPR_C2.PDF"
+      },
+      "STAR2" :{
+        "name" : "STAR GLAVN ONE (RNAV)",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026GLAVN.PDF"
+      },
+       "STAR2-2" :{
+        "name" : "STAR GLAVN ONE (RNAV) Cont.",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026GLAVN_C.PDF"
+      },
+       "STAR2-3" :{
+        "name" : "STAR GLAVN ONE (RNAV) Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026GLAVN_C2.PDF"
+      },
+       "STAR3" :{
+        "name" : "STAR HOBTT TWO (RNAV)",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026HOBTT.PDF"
+      },
+       "STAR3-2" :{
+        "name" : "STAR HOBTT TWO (RNAV) Cont.",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026HOBTT_C.PDF"
+      },
+       "STAR3-3" :{
+        "name" : "STAR HOBTT TWO (RNAV) Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026HOBTT_C2.PDF"
+      },
+      "STAR4" :{
+        "name" : "STAR JJEDI TWO (RNAV)",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026JJEDI.PDFF"
+      },
+       "STAR4-2" :{
+        "name" : "STAR JJEDI TWO (RNAV) Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026JJEDI_C.PDF"
+      },
+        "STAR5" :{
+        "name" : "STAR ONDRE ONE (RNAV)",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026ONDRE.PDF"
+      },
+       "STAR5-2" :{
+        "name" : "STAR ONDRE ONE (RNAV) Cont.",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026ONDRE_C.PDF"
+      },
+       "STAR5-3" :{
+        "name" : "STAR ONDRE ONE (RNAV) Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026ONDRE_C2.PDF"
+      },
+       "STAR6" :{
+        "name" : "STAR OZZZI ONE (RNAV)",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026OZZZI.PDF"
+      },
+       "STAR6-2" :{
+        "name" : "STAR OZZZI ONE (RNAV) Cont.",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026OZZZI_C.PDF"
+      },
+       "STAR6-3" :{
+        "name" : "STAR OZZZI ONE (RNAV) Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026OZZZI_C2.PDF"
+      },
+       "STAR7" :{
+        "name" : "STAR LAGRANGE FOUR",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026LAGRANGE.PDF"
+      },
+       "STAR7-2" :{
+        "name" : "STAR LAGRANGE FOUR Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026LAGRANGE_C.PDF"
+      },
+      "STAR8" :{
+        "name" : "STAR ROME FIVE",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026ROME.PDF"
+      },
+     "STAR9" :{
+        "name" : "STAR WHINZ FOUR",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026WHINZ.PDF"
+      },
+     "STAR10" :{
+        "name" : "STAR SINCA SIX",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026SINCA.PDF"
+      },
+       "STAR11" :{
+        "name" : "STAR GNDLF TWO (RNAV) ",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026GNDLF.PDF"
+      },
+       "STAR11-2" :{
+        "name" : "STAR GNDLF TWO (RNAV) Cont. + Notes",
+        "type" : "Arrival",
+        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026GNDLF_C.PDF"
+      },
+      "SID06" :{
+        "name" : "SID Runway 06",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_SID01_v18.pdf"
+      },
+      "SID24" :{
+        "name" : "SID Runway 24",
+        "type" : "Departure",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_SID02_v19.pdf"
+      },
+      "ILS06" :{
+        "name" : "ILS or LOC Runway 06",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC01_v14.pdf"
+      },
+      "ILS24" :{
+        "name" : "ILS or LOC Runway 24",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC02_v14.pdf"
+      },
+      "NDB24" :{
+        "name" : "NDB Runway 24",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC04_v14.pdf"
+      },
+      "NDB06" :{
+        "name" : "NDB Runway 06",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC03_v14.pdf"
+      },
+      "VIS" :{
+        "name" : "Visual",
+        "type" : "Approach",
+        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_VAC01_v12.pdf"
+      }
+    }
+  },
 }
