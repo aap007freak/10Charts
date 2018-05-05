@@ -19,7 +19,6 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("ui/main.fxml"));
         primaryStage.setOnCloseRequest((we) -> Platform.exit());
 
-
         primaryStage.setTitle("10Charts ALPHA");
         primaryStage.setScene(new Scene(root, 1025,600));
         primaryStage.sizeToScene();

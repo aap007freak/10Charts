@@ -47,7 +47,7 @@ public class Controller implements Initializable {
         //so that's what were doing here (using Gson)
         GsonBuilder gsonFactory = new GsonBuilder();
         AirportDeserializer deserializer = new AirportDeserializer();
-        gsonFactory.registerTypeAdapter(ArrayList.class, deserializer);
+        gsonFactory.registerTypeAdapter(ArrayList.class, deserializer); // TODO: 4/14/2018 elaborate error checking pls 
         Gson desGson = gsonFactory.create();
 
         try {

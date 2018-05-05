@@ -422,7 +422,7 @@
         "name" : "SID VAVOR (Jet only)",
         "type" : "Departure",
         "loc"  : "http://nav.vatsim-germany.org/files/edmm/charts/eddm/public/sid/EDDM_SID-17_VAVOR.pdf"
-      },
+      }
     }
   },
    "LOWW":{
@@ -575,7 +575,7 @@
   },
    "KATL":{
 
-    "icao": "ELLX",
+    "icao": "KATL",
     "name": "Hartsfield - Jackson Atlanta international airport",
     "charts":{
 
@@ -740,5 +740,5 @@
         "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_VAC01_v12.pdf"
       }
     }
-  },
+  }
 }

@@ -1,6 +1,7 @@
 package com.antonleagre.tencharts.ui;
 
 import com.antonleagre.tencharts.charts.Chart;
+import com.antonleagre.tencharts.charts.PDFDownloader;
 import javafx.embed.swing.SwingNode;
 import org.icepdf.ri.common.MyAnnotationCallback;
 import org.icepdf.ri.common.SwingController;
@@ -54,6 +55,10 @@ public class PDFViewer extends SwingNode {
     }
 
     public void openChart(Chart chart){
-        swingController.openDocument(chart.getLocalLocation());
+       // swingController.openDocument(chart.getLocalLocation());
+        //swingController.openDocument(PDFDownloader.downloadSingleChart(chart).getLocalLocation());
+        //swingController.openDocument(PDFDownloader.downloadSingleChartCommons(chart).getLocalLocation());
+        swingController.openDocument(PDFDownloader.downloadSingleChartHTTPS(chart).getLocalLocation());
+        // TODO: 5/5/2018 check nullpointers here or in the downloader class
     }
 }
