@@ -48,6 +48,9 @@ public class PDFDownloader {
         });
         System.out.println("Downloaded all charts for airport: " + airport.getName());
     }
+    public static void setAirportChartsFromDir(Airport airport, String path){
+        airport.getCharts().forEach(chart -> chart.setLocalLocation(path + "\\" + chart.getIdentifier() + ".pdf"));
+    }
 
     public static Chart downloadSingleChart(Chart chart){
         try {
@@ -81,7 +84,6 @@ public class PDFDownloader {
             return null;
         }
     }
-
     public static Chart downloadSingleChartHTTPS(Chart chart){
         // Create a new trust manager that trust all certificates
                 TrustManager[] trustAllCerts = new TrustManager[]{
@@ -127,11 +129,6 @@ public class PDFDownloader {
         return chart;
     }
 
-
-
-    public static void setAirportChartsFromDir(Airport airport, String path){
-        airport.getCharts().forEach(chart -> chart.setLocalLocation(path + "\\" + chart.getIdentifier() + ".pdf"));
-    }
 
 
 }

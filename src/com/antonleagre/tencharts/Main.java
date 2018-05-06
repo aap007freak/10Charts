@@ -25,5 +25,7 @@ public class Main extends Application {
         primaryStage.centerOnScreen();
         primaryStage.show();
 
+        // TODO: 5/6/2018 all FAA airports update per airac so we can do that too maybe no? 
+
     }
 }
