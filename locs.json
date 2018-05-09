@@ -572,11 +572,10 @@
     "icao": "KATL",
     "name": "Hartsfield - Jackson Atlanta international airport",
     "charts":{
-
       "AD" :{
-        "name" : "Aerodrome Chart",
+        "name" : "Airport Diagram",
         "type" : "Aerodrome",
-        "loc"  : "http://aeronav.faa.gov/d-tpp/1804/00026AD.PDF"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026AD.PDF"
       },
       "STAR1" :{
         "name" : "STAR CHPPR ONE (RNAV)",
@@ -811,127 +810,422 @@
       "ILS8RPRM" :{
         "name" : "ILS PRM Runway 08R",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM8R.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM8R.PDF"
       },
       "ILS9LPRM" :{
         "name" : "ILS PRM Runway 09L",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9L.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9L.PDF"
       },
       "ILS9RPRM" :{
         "name" : "ILS PRM Runway 09R",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9R.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9R.PDF"
       },
       "ILS10PRM" :{
         "name" : "ILS PRM Runway 10",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM10.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM10.PDF"
       },
       "ILS26LPRM" :{
         "name" : "ILS PRM Runway 26L",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM26L.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM26L.PDF"
       },
       "ILS26RPRM" :{
         "name" : "ILS PRM Runway 26R",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM26R.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM26R.PDF"
       },
       "ILS27LPRM" :{
         "name" : "ILS PRM Runway 27L",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM27L.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM27L.PDF"
       },
       "ILS27RPRM" :{
         "name" : "ILS PRM Runway 27R",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM27R.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM27R.PDF"
       },
       "ILS28PRM" :{
         "name" : "ILS PRM Runway 28",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM28.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM28.PDF"
       },
       "ILS8LSAPRM" :{
         "name" : "ILS PRM Runway 08L (SA CAT 1)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM8LSAC1.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM8LSAC1.PDF"
       },
       "ILS9RSAPRM" :{
         "name" : "ILS PRM Runway 09R (SA CAT 1)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9RSAC1.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9RSAC1.PDF"
       },
       "ILS10SAPRM" :{
         "name" : "ILS PRM Runway 10 (SA CAT 1)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM10SAC1.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM10SAC1.PDF"
       },
       "ILS26RSAPRM" :{
         "name" : "ILS PRM Runway 26R (SA CAT 1-2)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM26RSAC1_2.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM26RSAC1_2.PDF"
       },
       "ILS27L2PRM" :{
         "name" : "ILS PRM Runway 27L (CAT 2)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM27LSAC1.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM27LSAC1.PDF"
       },
       "ILS282PRM" :{
         "name" : "ILS PRM Runway 28 (CAT 2)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM28C2.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM28C2.PDF"
       },
       "ILS8L23PRM" :{
         "name" : "ILS PRM Runway 08L (CAT 2-3)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM8LC2_3.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM8LC2_3.PDF"
       },
       "ILS9R23PRM" :{
         "name" : "ILS PRM Runway 09R (CAT 2-3)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9RC2_3.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM9RC2_3.PDF"
       },
       "ILS1023PRM" :{
         "name" : "ILS PRM Runway 10 (CAT 2-3)",
         "type" : "Approach",
-        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM10C2_3.PDF#nameddest=(ATL)"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026IPRM10C2_3.PDF"
       },
-      "SID06" :{
-        "name" : "SID Runway 06",
+      "RNAV08LZ" :{
+        "name" : "RNAV (RNP) Z Runway 08L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RRZ8L.PDF"
+      },
+      "RNAV10Z" :{
+        "name" : "RNAV (RNP) Z Runway 10",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RRZ10.PDF"
+      },
+      "RNAV26RZ" :{
+        "name" : "RNAV (RNP) Z Runway 26R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RRZ26R.PDF"
+      },
+      "RNAV28Z" :{
+        "name" : "RNAV (RNP) Z Runway 28",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RRZ28.PDF"
+      },
+      "RNAV08R" :{
+        "name" : "RNAV (GPS) Runway 08R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026R8R.PDF"
+      },
+      "RNAV09L" :{
+        "name" : "RNAV (GPS) Runway 09L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026R9L.PDF"
+      },
+       "RNAV09R" :{
+        "name" : "RNAV (GPS) Runway 09R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026R9R.PDF"
+      },
+       "RNAV26L" :{
+        "name" : "RNAV (GPS) Runway 26L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026R26L.PDF"
+      },
+       "RNAV27L" :{
+        "name" : "RNAV (GPS) Runway 27L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026R27L.PDF"
+      },
+       "RNAV27R" :{
+        "name" : "RNAV (GPS) Runway 27R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026R27R.PDF"
+      },
+       "RNAV08LY" :{
+        "name" : "RNAV (GPS) Y Runway 08L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RY8L.PDF"
+      },
+      "RNAV10Y" :{
+        "name" : "RNAV (GPS) Y Runway 10",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RY10.PDF"
+      },
+      "RNAV26RY" :{
+        "name" : "RNAV (GPS) Y Runway 26R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RY26R.PDF"
+      },
+      "RNAV28Y" :{
+        "name" : "RNAV (GPS) Y Runway 28",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RY28.PDF"
+      },
+      "PRMAAUP" :{
+        "name" : "PRM 'Attention all users'",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PRMAAUP.PDF"
+      },
+       "RNAV08RPRM" :{
+        "name" : "RNAV (GPS) PRM Runway 08R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRM8R.PDF"
+      },
+      "RNAV09LPRM" :{
+        "name" : "RNAV (GPS) PRM Runway 09L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRM9L.PDF"
+      },
+       "RNAV09RPRM" :{
+        "name" : "RNAV (GPS) PRM Runway 09R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRM9R.PDF"
+      },
+       "RNAV26LPRM" :{
+        "name" : "RNAV (GPS) PRM Runway 26L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRM26L.PDF"
+      },
+       "RNAV27LPRM" :{
+        "name" : "RNAV (GPS) PRM Runway 27L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRM27L.PDF"
+      },
+       "RNAV27RPRM" :{
+        "name" : "RNAV (GPS) PRM Runway 27R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRM27R.PDF"
+      },
+       "RNAV08LYPRM" :{
+        "name" : "RNAV (GPS) PRM Y Runway 08L",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRMY8L.PDF"
+      },
+      "RNAV10YPRM" :{
+        "name" : "RNAV (GPS) PRM Y Runway 10",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRMY10.PDF"
+      },
+      "RNAV26RYPRM" :{
+        "name" : "RNAV (GPS) PRM Y Runway 26R",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRMY26R.PDF"
+      },
+      "RNAV28YPRM" :{
+        "name" : "RNAV (GPS) PRM Y Runway 28",
+        "type" : "Approach",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026RPRMY28.PDF"
+      },
+        "RNAVDPAAUP" :{
+        "name" : "RNAV Departures 'Attention all users page'",
         "type" : "Departure",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_SID01_v18.pdf"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026DPAAUP.PDF"
       },
-      "SID24" :{
-        "name" : "SID Runway 24",
+      "RNAVDPAAUP2" :{
+        "name" : "RNAV Departures 'Attention all users page' Cont.",
         "type" : "Departure",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_SID02_v19.pdf"
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026DPAAUP_C.PDF"
       },
-      "ILS06" :{
-        "name" : "ILS or LOC Runway 06",
-        "type" : "Approach",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC01_v14.pdf"
+      "SID1" :{
+        "name" : "SID ATLANTA NINE",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026ATLANTA.PDF"
       },
-      "ILS24" :{
-        "name" : "ILS or LOC Runway 24",
-        "type" : "Approach",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC02_v14.pdf"
+      "SID1-1" :{
+        "name" : "SID ATLANTA NINE Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026ATLANTA_C.PDF"
       },
-      "NDB24" :{
-        "name" : "NDB Runway 24",
-        "type" : "Approach",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC04_v14.pdf"
+      "SID2" :{
+        "name" : "SID BANNG TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026BANNG.PDF"
       },
-      "NDB06" :{
-        "name" : "NDB Runway 06",
-        "type" : "Approach",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_IAC03_v14.pdf"
+      "SID2-2" :{
+        "name" : "SID BANNG TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026BANNG_C.PDF"
       },
-      "VIS" :{
-        "name" : "Visual",
-        "type" : "Approach",
-        "loc"  : "https://www.belgocontrol.be/html/belgocontrol_static/eaip/eAIP_Main/graphics/eAIP/ELLX_VAC01_v12.pdf"
+      "SID3" :{
+        "name" : "SID CUTTN TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026CUTTN.PDF"
+      },
+      "SID3-2" :{
+        "name" : "SID CUTTN TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026CUTTN_C.PDF"
+      },
+      "SID4" :{
+        "name" : "SID GAIRY TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026GAIRY.PDF"
+      },
+      "SID4-2" :{
+        "name" : "SID GAIRY TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026GAIRY_C.PDF"
+      },
+      "SID5" :{
+        "name" : "SID HAALO TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026HAALO.PDF"
+      },
+      "SID5-2" :{
+        "name" : "SID HAALO TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026HAALO_C.PDF"
+      },
+      "SID6" :{
+        "name" : "SID JACCC TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026JACCC.PDF"
+      },
+      "SID6-2" :{
+        "name" : "SID JACCC TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026JACCC_C.PDF"
+      },
+      "SID7" :{
+        "name" : "SID KAJIN TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026KAJIN.PDF"
+      },
+      "SID7-2" :{
+        "name" : "SID KAJIN TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026KAJIN_C.PDF"
+      },
+       "SID8" :{
+        "name" : "SID NASSA TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026NASSA.PDF"
+      },
+      "SID8-2" :{
+        "name" : "SID NASSA TWO (RNAV) Cont.",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026NASSA_C.PDF"
+      },
+      "SID8-3" :{
+        "name" : "SID NASSA TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PADGT.PDF"
+      },
+       "SID9" :{
+        "name" : "SID PADGT TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026KAJIN.PDF"
+      },
+      "SID9-2" :{
+        "name" : "SID PADGT TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PADGT_C.PDF"
+      },
+      "SID10" :{
+        "name" : "SID PENCL TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PENCL.PDF"
+      },
+      "SID10-2" :{
+        "name" : "SID PENCL TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PENCL_C.PDF"
+      },
+      "SID11" :{
+        "name" : "SID PHIL TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PHIIL.PDF"
+      },
+      "SID11-2" :{
+        "name" : "SID PHIL TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PHIIL_C.PDF"
+      },
+      "SID12" :{
+        "name" : "SID PLMMR TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PLMMR.PDF"
+      },
+      "SID12-2" :{
+        "name" : "SID PLMMR TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026PLMMR_C.PDF"
+      },
+       "SID13" :{
+        "name" : "SID POUNC TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026POUNC.PDF"
+      },
+      "SID13-2" :{
+        "name" : "SID POUNC TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026POUNC_C.PDF"
+      },
+       "SID14" :{
+        "name" : "SID SMKEY TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026SMKEY.PDF"
+      },
+      "SID14-2" :{
+        "name" : "SID SMKEY TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026SMKEY_C.PDF"
+      },
+      "SID15" :{
+        "name" : "SID SMLTZ TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026SMLTZ.PDF"
+      },
+      "SID15-2" :{
+        "name" : "SID SMLTZ TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026SMLTZ_C.PDF"
+      },
+      "SID16" :{
+        "name" : "SID VARNM TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026VARNM.PDF"
+      },
+      "SID16-2" :{
+        "name" : "SID VARNM TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026VARNM_C.PDF"
+      },
+      "SID17" :{
+        "name" : "SID VRSTY TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026VRSTY.PDF"
+      },
+      "SID17-2" :{
+        "name" : "SID VRSTY TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026VRSTY_C.PDF"
+      },
+      "SID18" :{
+        "name" : "SID WIGLE TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026WIGLE.PDF"
+      },
+      "SID18-2" :{
+        "name" : "SID WIGLE TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026WIGLE_C.PDF"
+      },
+       "SID19" :{
+        "name" : "SID ZELAN TWO (RNAV)",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026ZELAN.PDF"
+      },
+      "SID19-2" :{
+        "name" : "SID WIGLE TWO (RNAV) Notes",
+        "type" : "Departure",
+        "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026ZELAN_C.PDF"
       }
     }
   }
