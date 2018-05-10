@@ -1,26 +1,25 @@
 package com.antonleagre.tencharts.ui;
 
 import com.antonleagre.tencharts.charts.Airport;
-import com.antonleagre.tencharts.charts.AirportDeserializer;
+import com.antonleagre.tencharts.charts.MultipleAirportDeserializer;
 import com.antonleagre.tencharts.charts.Chart;
 import com.antonleagre.tencharts.charts.PDFDownloader;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
 import com.jfoenix.controls.JFXTabPane;
 import com.jfoenix.controls.JFXTreeView;
-import javafx.event.EventType;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.collections.transformation.SortedList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
-import sun.reflect.generics.tree.Tree;
 
 import java.io.File;
 import java.io.FileReader;
@@ -37,7 +36,6 @@ public class Controller implements Initializable {
     @FXML
     private JFXTreeView<Chart> treeView;
 
-    
     private ArrayList<Airport> woohoo;
     public void initialize(URL location, ResourceBundle resources) {
         System.out.println("NOW INITIALIZING AIRPORTS AND SUCH");
@@ -45,10 +43,14 @@ public class Controller implements Initializable {
         update();
         //secondly we want to deserialize the new/old locs.json file into an arraylist of airports, 
         //so that's what were doing here (using Gson)
-        GsonBuilder gsonFactory = new GsonBuilder();
-        AirportDeserializer deserializer = new AirportDeserializer();
-        gsonFactory.registerTypeAdapter(ArrayList.class, deserializer); // TODO: 4/14/2018 elaborate error checking pls 
+
+
+           GsonBuilder gsonFactory = new GsonBuilder();
+        MultipleAirportDeserializer deserializer = new MultipleAirportDeserializer();
+        gsonFactory.registerTypeAdapter(ArrayList.class, deserializer); // TODO: 4/14/2018 elaborate error checking pls
         Gson desGson = gsonFactory.create();
+
+
 
         try {
             woohoo = desGson.fromJson(new JsonReader(new FileReader("locs.json")), ArrayList.class);
@@ -84,6 +86,16 @@ public class Controller implements Initializable {
                 tabPane.getSelectionModel().select(chartTab); //set it as the selected tab.
             }
         });
+
+        //now we're setting up the sorting algorithm for the treeview
+
+        ObservableList<String> options =
+                FXCollections.observableArrayList(
+                        "Sort by ",
+                        "Option 2",
+                        "Option 3"
+                );
+
         System.out.println("DONE!");
 
     }
@@ -122,6 +134,8 @@ public class Controller implements Initializable {
     private void checkButtonClicked(){
         woohoo.forEach(ap -> ap.getCharts().forEach(ch -> System.out.println(ch.getLocalLocation())));
     }
+
+
 
     private void update(){
         //1. dwonlaod a new locs.json file from the web if there is one

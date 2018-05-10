@@ -1223,7 +1223,7 @@
         "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026ZELAN.PDF"
       },
       "SID19-2" :{
-        "name" : "SID WIGLE TWO (RNAV) Notes",
+        "name" : "SID ZELAN TWO (RNAV) Notes",
         "type" : "Departure",
         "loc"  : "https://www.faa.gov/aero_docs/dtpp/1805/00026ZELAN_C.PDF"
       }
